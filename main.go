@@ -8,5 +8,5 @@ import (
 
 func main() {
 	fmt.Println("Hi from main package")
-	fmt.Println(apigateway.Init_api())
+	apigateway.InitApi()
 }
